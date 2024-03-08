@@ -31,7 +31,7 @@ body {
     width: 368px;
     height: 510px;
     text-align: center;
-    background-image: linear-gradient(45deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%) );
+    background-image: linear-gradient(45deg, #2e2be9, #7857ff );
     border-radius: 25px;
 }
 
@@ -62,7 +62,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 100%;
-    background-image: linear-gradient(0deg, hsla(241, 72%, 46%, 0) , hsla(256, 72%, 46%, 1));
+    background-image: linear-gradient(0deg, #2421ca00 , #4e21ca);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,7 +85,7 @@ body {
 
 .rec1 p {
     margin-left: 10px;
-    color:hsl(0, 100%, 67%) ;
+    color:#ff5757 ;
     font-weight: 700;
 }
 
@@ -105,7 +105,7 @@ body {
 
 .rec2 p {
     margin-left: 10px;
-    color:hsl(39, 100%, 56%) ;
+    color:#ffb01f ;
     font-weight: 700;
 }
 
@@ -125,7 +125,7 @@ body {
 
 .rec3 p {
     margin-left: 10px;
-    color:hsl(166, 100%, 37%) ;
+    color:#00bd91 ;
     font-weight: 700;
 }
 
@@ -133,7 +133,7 @@ body {
 .rec4 {
     width: 290px;
     height: 58px;
-    background-color:  hsl(234, 85%, 45%, 0.05);
+    background-color:  #1125d40d;
     margin-top: 15px;
     border-radius: 10px;
     display: flex;
@@ -146,7 +146,7 @@ body {
 
 .rec4 p {
     margin-left: 10px;
-    color:hsl(234, 85%, 45%) ;
+    color:#1125d4 ;
     font-weight: 700;
 }
 
@@ -185,10 +185,6 @@ button {
     color: #cec7ff;
 }
 
-.ti2 {
-    
-}
-
 .tel {
     margin-left: 90px;
 }
@@ -222,4 +218,86 @@ button {
 .po {
     font-weight: 800;
     opacity: 0.4;
+}
+
+.enc {
+    margin-left: 60px;
+    margin-right: 60px;
+} 
+
+@media only screen and (max-width: 375px) {
+
+    body {
+        max-width: 375px;
+        min-height: 809px;
+        margin: 0;
+    }
+
+    .box {
+        margin: 0;
+        width: 375px;
+        height: 809px;
+    }
+
+        
+    .boxcontainer {
+        display: inline;
+    }
+
+    .box1 {
+        width: 375px;
+        height: 375px;
+        text-align: center;
+        border-radius: 0px 0px 35px 35px;
+
+    }
+
+    .box2 {
+        width: 375px;
+        height: 434px;
+        align-items: center;
+        
+    }
+
+    .ti h1 {
+        font-size: 18px;
+        margin-top: 0;
+        position: relative;
+        top: 24px;
+    }
+
+    .ti2 h1 {
+        margin-bottom: 20px;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    
+    .boxc {
+        margin-bottom: 0px;
+
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+        margin-top: 30px;
+    }
+
+    .big {
+        font-size: 50px;
+    }
+
+    .enc {
+        margin-top: -10px;
+        margin-left: 60px;
+        margin-right: 60px;
+        font-size: 15px;
+    } 
+    
+
+    .allrec h1 {
+        font-size: 18px;
+        margin-top: 55px;
+        margin-bottom: 22px;
+    }
 }
